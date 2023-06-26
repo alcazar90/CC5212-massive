@@ -1,5 +1,16 @@
 # Amazon Review Classifier Using PySpark
 
+- Project title: Amazon reviews sentiment classifier.
+- Data used: Kaggle Amazon Reviews.
+- Technology used: Spark.
+- Main objective: Create a term-frequency inverse document frequency (TF-IDF) feature matrix from amazon reviews and train a binary sentiment classifier (i.e. positive / negative).
+
+
+A random amazon review:
+
+> "2","Makes My Blood Run Red-White-And-Blue","I agree that every American should read this book -- and everybody else for that matter. I don't agree that it's scholarly. Rather, it's a joy to read -- easy to understand even for a person with two master's degrees! Between McElroy's chapter on How American Culture was Formed and Ken Burns' Lewis & Clark, I don't know which makes my blood run red-white-and-bluer. And as a child of the anti-establishment `60s, it's done a lot toward helping me understand why we Americans do what we do. It's the best history book I've ever read, the best history course I've ever taken or taught. I'm buying it for my home library for my grandchildren to use as a resource. We're also using it as a resource for a book on urban planning."
+
+
 ## Usage
 
 For training the model use the `train.py` script:
@@ -37,7 +48,7 @@ hdfs dfs -cat /uhadoop2023/manco/amazon/predictions/part-00000-*.csv | wc
 ```
 @misc{CC5212-massive-manco,
   authors = {Alcázar, Cristól}, {Garrido, Yerko}, {Stears, Christopher}
-  title = {Amazon Review Classifier Using Pyspark},
+  title = {Project group 8: Amazon Review Classifier Using Pyspark},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},

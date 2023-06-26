@@ -42,14 +42,14 @@ hdfs dfs -get /uhadoop2023/manco/amazon/predictions/part-00000-*.csv part0.csv
 The dataset is prepared by applying the following steps:
 
 1. Combine the title and body columns into a single one.
-1. Remove punctuation and any symbol different from letters and numbers.
-1. Apply a tokenizer that separates the text by white spaces to build the vocabulary of the corpus.
-1. Use the method CountVectorizer to count the number of each token per review.
-1. Then, IDF performs the TF-IDF transformations based on the counts to compute the following formula:
+2. Remove punctuation and any symbol different from letters and numbers.
+3. Apply a tokenizer that separates the text by white spaces to build the vocabulary of the corpus.
+4. Use the method CountVectorizer to count the number of each token per review.
+5. Then, IDF performs the TF-IDF transformations based on the counts to compute the following formula:
 <center>
-<img src="https://towardsdatascience.com/tf-term-frequency-idf-inverse-document-frequency-from-scratch-in-python-6c2b61b78558" alt="lala">
+ 	<img src="https://miro.medium.com/v2/resize:fit:1400/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" alt="Image Description">
 </center>
-1. Finally, we get the feature matrix $N\times |V|$, in which $N$ is the number of observations, $|V|$ is the vocabulary size in the corpus, and each value in the matrix is the TF-IDF for a particular token in a product review.
+6. Finally, we get the feature matrix $N\times |V|$, in which $N$ is the number of observations, $|V|$ is the vocabulary size in the corpus, and each value in the matrix is the TF-IDF for a particular token in a product review.
 
 
 ## TODO

@@ -47,7 +47,7 @@ The dataset is prepared by applying the following steps:
 4. Use the method CountVectorizer to count the number of each token per review.
 5. Then, IDF performs the TF-IDF transformations based on the counts to compute the following formula:
 <center>
- 	<img src="https://miro.medium.com/v2/resize:fit:1400/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" alt="Image Description">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" alt="TF-IDF card" width="300" height="300">
 </center>
 6. Finally, we get the feature matrix $N\times |V|$, in which $N$ is the number of observations, $|V|$ is the vocabulary size in the corpus, and each value in the matrix is the TF-IDF for a particular token in a product review.
 
@@ -61,8 +61,8 @@ The dataset is prepared by applying the following steps:
 1. [X] Guardar pipeline de prediccion
 1. [X] Crear `inference.py` para utilizar el pipeline de predicciion
 1. [ ] Escalar entrenamiento
-1. [ ] Archivo de analisis y computar metrica
-1. [ ] Entrenar otra clase de modelo diferente tipo arboles...
+1. [ ] Notebok para computar metricas y  analisis 
+1. [X] Entrenar otra clase de modelo diferente tipo arboles...
 
 
 

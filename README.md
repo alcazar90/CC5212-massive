@@ -95,22 +95,6 @@ A nice confusion matrix plot...
 </table>
 
 
-## TODO
-
-1. [X] Cargar los datos.
-1. [X] Cambiar los nombres (?), los archivos no vienen con nombre creo
-1. [X] Concatenar `review_body` y `review_title` en una sola columna
-1. [X] Tokenizar, computar TF-IDF, luego entrenar una regresino logistica
-1. [X] Guardar pipeline de prediccion
-1. [X] Crear `inference.py` para utilizar el pipeline de predicciion
-1. [ ] Escalar entrenamiento
-1. [ ] Notebok para computar metricas y  analisis 
-1. [X] Entrenar otra clase de modelo diferente tipo arboles
-1. [ ] Agregar  secci√n breve en README con tipo de modelos entrenados
-1. [ ] Agregar secci√n en README con resultados de los modelos
-1. [X] Agregar parrafos sobre qu√ es Spark y su rol en el proyecto
-
-
 ## Reference
 
 ```

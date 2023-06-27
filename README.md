@@ -3,16 +3,16 @@
 - **Project title:** Amazon Reviews Classifier Using Pyspark.
 - **Dataset:** [Kaggle Amazon Reviews](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews?select=test.csv).
 - **Technology:** `python` + `spark`.
-- **Team:** Crist√bal Alc√zar, Yerko Garrid, Christopher Stears
+- **Team:** CristÛbal Alc·zar, Yerko Garrido, Christopher Stears
 - **Project Goal:** Create a term-frequency inverse document frequency (TF-IDF) feature matrix from the Amazon reviews dataset, and train a classification model to predict the product reviews.
 
 ## Abstract 
 
-The increasing availability of large-scale datasets presents challenges in traditional machine learning approaches due to memory limitations and computational constraints. However, with Apache Spark's distributed computing capabilities, these challenges can be overcome. In this project, we aim to harness the power of PySpark, the Python library for Spark, to train a classifier on the Kaggle Amazon Reviews dataset, a massive collection of product reviews.
+The increasing availability of large-scale datasets presents challenges in traditional machine learning approaches due to memory limitations and computational constraints. However, with Apache Spark's distributed computing capabilities, these challenges can be overcome. In this project, we aim to harness the power of PySpark, the Python library for Spark, to train a classifier on the [Kaggle Amazon Reviews](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews?select=test.csv) dataset, a massive collection of product reviews.
 
 One of Spark's standout features is its ability to distribute computations across a cluster of machines, enabling the processing of datasets that exceed the memory capacity of a single machine. This distributed nature of Spark allows for parallel execution of tasks, making it an ideal platform for training machine learning models on extensive datasets. By utilizing PySpark's high-level API, MLlib, we can leverage its extensive set of distributed machine learning algorithms and tools.
 
-Through this project, we aim to showcase the capabilities of PySpark and its MLlib library in tackling real-world machine learning challenges. By successfully training a sentiment classifier on the Kaggle Amazon Reviews dataset, we will demonstrate PySpark's ability to handle massive datasets, leverage distributed processing, and deliver scalable machine learning solutions. The insights gained from this project will not only advance our understanding of distributed machine learning but also open doors to scalable and efficient data analysis in various domains.
+Through this project, we aim to showcase the capabilities of PySpark and its MLlib library in tackling real-world machine learning challenges. By successfully training a sentiment classifier on the [Kaggle Amazon Reviews](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews?select=test.csv) dataset, we will demonstrate PySpark's ability to handle massive datasets, leverage distributed processing, and deliver scalable machine learning solutions. The insights gained from this project will not only advance our understanding of distributed machine learning but also open doors to scalable and efficient data analysis in various domains.
 
 
 Here is an observation of the dataset:

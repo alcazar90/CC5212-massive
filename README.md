@@ -82,7 +82,7 @@ A nice confusion matrix plot...
 <table border=0 align=center>
     <tbody>
         <tr>
-     	    <td width="50%" align="center"> <img src="./assets/conf_plot_lm.png"></td>
+     	    <td width="50%" align="center"> <img src="./assets/confusion_matrix.png"></td>
 	    <td width="50%" align="center"> <img src="./assets/confusion_matrix.png"></td>
         </tr>
     </tbody>

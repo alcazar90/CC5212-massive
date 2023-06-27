@@ -56,7 +56,7 @@ The dataset is prepared by applying the following steps:
 5. Then, IDF performs the TF-IDF transformations based on the counts to compute the formula on the below image.
 6. Finally, we get the feature matrix $N\times |V|$, in which $N$ is the number of observations, $|V|$ is the vocabulary size in the corpus, and each value in the matrix is the TF-IDF for a particular token in a product review.
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" width="450"/>
+<img src="./assets/tf-idf_card.png" width="450"/>
 
 ## Models
 
@@ -64,7 +64,29 @@ TODO...
 
 ## Results
 
-TODO...
+A super duper model classification report...
+
+```
+              precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00     24725
+           2       0.51      1.00      0.67     25472
+
+    accuracy                           0.51     50197
+   macro avg       0.25      0.50      0.34     50197
+weighted avg       0.26      0.51      0.34     50197
+```
+
+A nice confusion matrix plot...
+
+<table border=0 align=center>
+    <tbody>
+        <tr>
+     	    <td width="50%" align="center"> <img src="./assets/conf_plot_lm.png"></td>
+	    <td width="50%" align="center"> <img src="./assets/conf_plot_lm.png"></td>
+        </tr>
+    </tbody>
+</table>
 
 
 ## TODO

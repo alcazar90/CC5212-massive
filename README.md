@@ -60,7 +60,13 @@ The dataset is prepared by applying the following steps:
 
 ## Models
 
-TODO...
+We trained two models for analyzing Amazon reviews: Logistic Regression and Classification Tree.
+
+Logistic Regression:
+Logistic regression is a statistical model commonly used for binary classification tasks. In the context of sentiment analysis for Amazon reviews, logistic regression is a suitable choice for predicting whether a review is positive or negative based on its features. By fitting a logistic function to the input data, logistic regression estimates the probability of a review belonging to a particular sentiment class. The model learns the relationship between independent variables (such as review text and its title) and the binary outcome (positive or negative sentiment). This allows us to quantify the impact of different features on the likelihood of a review being positive or negative.
+
+Classification Tree:
+A classification tree, also known as a decision tree, is a hierarchical structure that partitions the data into different categories based on feature values. In the context of analyzing Amazon reviews, a classification tree can be constructed to predict the sentiment or classify the reviews into distinct sentiment classes. The tree is built by recursively splitting the data using different features and their thresholds, creating a flowchart-like structure. Each internal node represents a decision based on a specific feature, guiding the review's path down the tree until it reaches a leaf node that corresponds to a sentiment class. Classification trees provide an interpretable approach to understanding the decision-making process and identifying the most influential features for sentiment classification.
 
 ## Results
 

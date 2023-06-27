@@ -57,7 +57,7 @@ The dataset is prepared by applying the following steps:
 6. Finally, we get the feature matrix $N\times |V|$, in which $N$ is the number of observations, $|V|$ is the vocabulary size in the corpus, and each value in the matrix is the TF-IDF for a particular token in a product review.
 
 <p align="center">
-	<img src="https://miro.medium.com/v2/resize:fit:1400/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" alt="TF-IDF card" width="440" height="300">
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" alt="TF-IDF card" width="440" height="300"/>
 </p>
 
 ## Models

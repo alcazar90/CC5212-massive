@@ -1,11 +1,12 @@
 # Amazon Review Classifier Using PySpark
 
-## Abstract 
-
 - **Project title:** Amazon Reviews Classifier Using Pyspark.
 - **Dataset:** [Kaggle Amazon Reviews](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews?select=test.csv).
 - **Technology:** `python` + `spark`.
+- **Team:** Crist√bal Alc√zar, Yerko Garrid, Christopher Stears
 - **Project Goal:** Create a term-frequency inverse document frequency (TF-IDF) feature matrix from the Amazon reviews dataset, and train a classification model to predict the product reviews.
+
+## Abstract 
 
 The increasing availability of large-scale datasets presents challenges in traditional machine learning approaches due to memory limitations and computational constraints. However, with Apache Spark's distributed computing capabilities, these challenges can be overcome. In this project, we aim to harness the power of PySpark, the Python library for Spark, to train a classifier on the Kaggle Amazon Reviews dataset, a massive collection of product reviews.
 
@@ -53,7 +54,7 @@ The dataset is prepared by applying the following steps:
 3. Apply a tokenizer that separates the text by white spaces to build the vocabulary of the corpus.
 4. Use the method CountVectorizer to count the number of each token per review.
 5. Then, IDF performs the TF-IDF transformations based on the counts to compute the following formula:
-	<img src="https://miro.medium.com/v2/resize:fit:1400/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" alt="TF-IDF card" width="440" height="300">
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" alt="TF-IDF card" width="440" height="300">
 6. Finally, we get the feature matrix $N\times |V|$, in which $N$ is the number of observations, $|V|$ is the vocabulary size in the corpus, and each value in the matrix is the TF-IDF for a particular token in a product review.
 
 ## Models

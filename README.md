@@ -108,6 +108,12 @@ Confusion matrices for both models:
 </table>
 
 
+## Conclusions
+
+1. PySpark seamlessly integrates Spark functionality with Python, enabling smooth interoperability with other machine learning frameworks and libraries.
+1. Spark MLib offers a diverse range of distributed training models, including linear and tree-based models, eliminating the need to transfer intermediate steps between HDFS and the local system.
+1. Despite the simplicity of the Amazon dataset (balance with 2 classes), impressive average F1 scores of 90% are achieved even without hyperparameter optimization (scales matter).
+
 ## Reference
 
 ```

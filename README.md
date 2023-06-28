@@ -70,26 +70,39 @@ A classification tree, also known as a decision tree, is a hierarchical structur
 
 ## Results
 
-A super duper model classification report...
+Classification report for both models:
 
 ```
+LogisticRegression:
               precision    recall  f1-score   support
 
-           1       0.00      0.00      0.00     24725
-           2       0.51      1.00      0.67     25472
+           1       0.90      0.90      0.90    200328
+           2       0.90      0.90      0.90    199672
 
-    accuracy                           0.51     50197
-   macro avg       0.25      0.50      0.34     50197
-weighted avg       0.26      0.51      0.34     50197
+    accuracy                           0.90    400000
+   macro avg       0.90      0.90      0.90    400000
+weighted avg       0.90      0.90      0.90    400000
 ```
 
-A nice confusion matrix plot...
+```
+ClassificationTree:
+              precision    recall  f1-score   support
+
+           1       0.63      0.79      0.70    157944
+           2       0.84      0.69      0.76    242056
+
+    accuracy                           0.73    400000
+   macro avg       0.73      0.74      0.73    400000
+weighted avg       0.75      0.73      0.73    400000
+```
+
+Confusion matrices for both models:
 
 <table border=0 align=center>
     <tbody>
         <tr>
-     	    <td width="50%" align="center"> <img src="./assets/confusion_matrix.png"></td>
-	    <td width="50%" align="center"> <img src="./assets/confusion_matrix.png"></td>
+     	    <td width="50%" align="center"> <img src="./assets/confusion_matrix_lm.png"></td>
+	    <td width="50%" align="center"> <img src="./assets/confusion_matrix_tree.png"></td>
         </tr>
     </tbody>
 </table>
